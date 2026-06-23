@@ -1,0 +1,19 @@
+HEALTH INSURANCE CLAIM FORM
+
+Claim ID: CLM001
+
+Patient Name: Shorabh Chobey
+Patient ID: PAT001
+Age: 29
+Gender: Male
+
+Hospital Name: Fortis Hospital
+City: Delhi
+
+Diagnosis: Appendicitis
+Procedure: Appendectomy
+
+Claim Amount: 85000
+
+Policy Number: POL001
+Policy Type: Gold

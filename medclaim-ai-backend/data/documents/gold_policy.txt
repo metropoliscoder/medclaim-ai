@@ -1,0 +1,22 @@
+GOLD HEALTH INSURANCE POLICY
+
+Policy Number: POL001
+
+Coverage Limit:
+100000
+
+Covered Procedures:
+
+- Appendectomy
+- Cholecystectomy
+- CABG
+
+Waiting Period:
+30 Days
+
+EXCLUSIONS:
+- Cosmetic Surgery
+- Experimental Procedures
+
+ROOM RENT LIMIT:
+5000 INR per day

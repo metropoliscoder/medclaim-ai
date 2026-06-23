@@ -1,0 +1,30 @@
+{
+  "claim_id": "CLM001",
+
+  "patient": {
+    "patient_id": "12345",
+    "full_name": "Shorabh Chobey",
+    "age": 29,
+    "gender": "Male"
+  },
+
+  "hospital": {
+    "hospital_id": "H001",
+    "hospital_name": "Fortis Hospital",
+    "city": "Delhi"
+  },
+
+  "treatment": {
+    "diagnosis": "Appendicitis",
+    "procedure_name": "Appendectomy"
+  },
+
+  "policy": {
+    "policy_number": "POL001",
+    "policy_type": "Gold",
+    "coverage_limit": 100000
+  },
+  "billing": {
+    "claim_amount": 85000
+  }
+}
