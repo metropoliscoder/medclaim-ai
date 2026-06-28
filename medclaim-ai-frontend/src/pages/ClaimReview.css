@@ -1,0 +1,103 @@
+/* ── Page shell ─────────────────────────────────────────── */
+.claim-review {
+  padding: 36px 40px;
+  min-height: 100vh;
+  background: #0b1120;
+  color: white;
+}
+
+/* ── Header ─────────────────────────────────────────────── */
+.claim-header {
+  margin-bottom: 36px;
+}
+
+.claim-header-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(59, 130, 246, 0.12);
+  border: 1px solid rgba(59, 130, 246, 0.3);
+  color: #60a5fa;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 999px;
+  margin-bottom: 14px;
+}
+
+.claim-header h1 {
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, #fff 60%, #60a5fa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.claim-header p {
+  color: #94a3b8;
+  font-size: 15px;
+  max-width: 580px;
+  line-height: 1.6;
+}
+
+/* ── Two-column grid ─────────────────────────────────────── */
+.claim-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.claim-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.claim-right {
+  position: sticky;
+  top: 24px;
+}
+
+/* ── Results section entrance ────────────────────────────── */
+.results-entrance {
+  margin-top: 36px;
+  animation: fadeSlideUp 0.5s ease both;
+}
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+@media (max-width: 1100px) {
+  .claim-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .claim-right {
+    position: static;
+  }
+}
+
+@media (max-width: 640px) {
+  .claim-review {
+    padding: 24px 16px;
+  }
+
+  .claim-header h1 {
+    font-size: 26px;
+  }
+}

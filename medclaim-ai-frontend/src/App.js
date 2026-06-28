@@ -8,6 +8,7 @@ import AIAssistant from './pages/AIAssistant';
 import Analytics from './pages/Analytics';
 import Sidebar from './components/Sidebar';
 import './App.css';
+import ClaimReview from "./pages/ClaimReview";
 
 function AppShell() {
   const { user } = useAuth();
@@ -25,6 +26,7 @@ function AppShell() {
 
   const pages = {
     dashboard: <Dashboard setActive={setActive} />,
+    "claim-review": <ClaimReview />,
     claims: <Claims />,
     assistant: <AIAssistant />,
     analytics: <Analytics />,
