@@ -52,7 +52,6 @@ export default function ClaimReview() {
 
       const uploadResponse = await uploadClaim(files);
 
-      console.log("Upload Response", uploadResponse);
 
       const jobId = uploadResponse.job_id;
 
@@ -61,19 +60,7 @@ export default function ClaimReview() {
         try {
 
           const job = await getJobStatus(jobId);
-          console.log("========== JOB ==========");
-          console.log(job);
-
-          console.log("========== RESULT ==========");
-          console.log(job.result);
-
-          console.log("========== FINAL DECISION ==========");
-          console.log(job.result?.final_decision);
-
-          console.log("===========================");
-
-          console.log("Job Status", job);
-
+          
           const progress = job.progress || 0;
 
           const completed = Math.floor(progress / 20);

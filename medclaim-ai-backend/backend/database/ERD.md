@@ -1,0 +1,26 @@
+Claims
+-----------------------
+id
+job_id
+patient_name
+hospital_name
+diagnosis
+procedure
+claim_amount
+status
+decision
+confidence
+created_at
+        │
+        │ 1
+        │
+        ▼
+Claim_Audits
+-----------------------
+id
+claim_id
+medical_review
+policy_review
+ai_reasoning
+final_decision
+created_at
